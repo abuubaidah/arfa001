@@ -1,0 +1,213 @@
+/*************************************************************
+	Title: Arfa - One Page Corporate and Business Template
+	Author: Avabil
+	version: 1.0
+*************************************************************/
+
+
+/* Small devices (mobiles, 500px and down) */
+@media (max-width: 500px) {
+	/* banner area */
+	.home-banner .banner-text a {
+		display: block;
+	}
+
+	/* about area */
+	.about .about-text a {
+		display: block;
+		text-align: center;
+	}
+
+	/* service area */
+	.service .service-text .btn-service {
+		display: flex;
+	}
+	.service .service-text .btn-service a {
+	    text-align: center;
+	    flex: 1;
+	}
+	.service .service-text .btn-service a:first-child {
+	    margin-right: 20px;
+	}
+
+	/* blog area */
+	.blog .recent-blog .single-blog .part-text .btn-read-more {
+		display: block;
+		text-align: center;
+	}
+
+	/* contact area */
+	.contact .get-in-touch .sending-message input {
+	    border: 1px solid #6d49eb;
+	    padding: 12px;
+	}
+	.contact .get-in-touch .sending-message textarea {
+	    border: 1px solid #6d49eb;
+	    padding: 12px;
+	}
+	.contact .get-in-touch .sending-message button {
+		width: 100%;
+	}
+	.contact .get-in-touch .address ul li {
+		display: block;
+		text-align: center;
+	}
+	.contact .get-in-touch .address ul li span {
+		font-size: 40px;
+		margin-right: 0;
+	}
+	.contact .get-in-touch .social {
+		text-align: center;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/ 
+@media (max-width: 767px) { 
+	/* header area start */
+	header {
+		position: relative;
+		background: #6d49eb;
+		padding: 10px 0;
+	}
+
+	header .menubar {
+		display: block;
+	}
+
+	header nav {
+		float: none;
+		text-align: left;
+		display: none;
+	}
+	header nav ul {
+		margin: 15px;
+	}
+	header nav ul li {
+		float: none;
+		padding: 10px 0;
+	}
+	header nav ul li:hover {
+		background: #fff;
+	}
+	header nav ul li a {
+		margin-left: 10px;
+	}
+	header nav ul li:hover a {
+		color: #6d49eb;
+	}
+	/* header area end */
+
+	/* home area start */
+	.home-banner .banner-text h1 {
+		font-size: 38px;
+	}
+	.home-banner .banner-text p {
+		font-size: 24px;
+	}
+	/* home area end */
+
+
+	/* client area start */
+	.clients-logo {
+		display: block;
+	}
+	.clients-logo .single-client-logo img {
+		height: 30px;
+		margin: auto;
+		display: block;
+	}
+	.clients-logo .single-client-logo:nth-child(1) img {
+	    margin-left: auto;
+	}
+	.clients-logo .single-client-logo:nth-child(4) img {
+		margin-right: auto;
+	}
+	/* client area end */
+
+
+	/* about section */
+	.about .about-img {
+		margin-bottom: 50px;
+	}
+
+	/* contact section */
+	.contact .get-in-touch .social {
+		margin-bottom: 30px;
+	}
+
+
+	/* work area */
+	.work .our-works-menu ul li {
+	    margin-right: 8px;
+	    margin-bottom: 6px;
+	    padding: 8px 8px;
+	    border: 0;
+	}
+ }
+ 
+ @media (max-width: 768px) { 
+	/* about section */
+	.about .about-text {
+		padding: 40px 10px 0;
+	}
+	/* service section */
+	.service .service-text {
+		margin-bottom: 50px;
+	}
+	.service .single-service.adding-margin-top {
+	    margin-top: 0px;
+	}
+
+ }
+
+ @media (min-width: 768px) {
+
+	/* client area start */
+	.clients-logo .single-client-logo img {
+		height: 30px;
+	}
+	/* contact section */
+	.contact .get-in-touch .social {
+		margin-bottom: 30px;
+	}
+
+	
+ }
+
+
+/*Large devices (desktops, 992px and up)*/ 
+@media (min-width: 992px) {
+
+	/* client area start */
+	.clients-logo .single-client-logo img {
+		height: 40px;
+	}
+ }
+
+ /*Large devices (desktops, 992px and down)*/ 
+@media (max-width: 992px) {
+	/* about area */
+	.about .about-img img {
+	    width: 100%;
+	}
+
+	/* service area */
+	.service .single-service.adding-margin-top {
+		margin-top: 0;
+	}
+	.service .service-text {
+		margin-bottom: 70px;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/ 
+@media (min-width: 1200px) { 
+	/* client area start */
+	.clients-logo .single-client-logo img {
+		height: 50px;
+	}
+    
+}
+
+
+
